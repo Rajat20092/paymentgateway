@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="user.css">
+    <link rel="stylesheet" href="audi.css">
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="gallery.css">
+    <script src="https://kit.fontawesome.com/a398e51097.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo"><div class="logo1">The Spark Foundation</div></a>
+        <div class="nav-links ">
+            <ul>
+                <li class="active"><a href="./index.html">HOME</a></li>
+                <li><a href="checkout.html" class="signup" >Payment</a ></li>
+                <li><a href="https://github.com/Rajat20092" class="signup">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/rajat-dubey-91953b273/" class="signup">linkdin</a></li>
+                <!-- <li><a href="#audi" class="signup"></a></li>
+                <li><a href="#gallery" class="signup"></a></li> -->
+                <li><a href="https://www.thesparksfoundationsingapore.org/" class="signup">CONTACT US</a></li>
+            </ul>
+        </div>
+        
+        <img src="img/menu-btn.png" alt="menu-btn" class="menu-btn">
+    </nav>
+    <header>
+    <div class="bg-blur"><h2 class="name" >The Spark Foundation</h2><br>
+   
+    </div></header>
+   
+    
+
+
+<section class="contact-us" id="contact-us">
+    <div class="hd"><h1>Get In Touch</h1></div>
+    <div class="details">
+    <div class="address"><h4>ADDRESS</h4>
+    <div class="address-main"><h5>ONLINE NOTES
+         <br><br> </h5></div>
+    </div>
+    <div class="email"><h4>EMAIL</h4>
+        <div class="email-main"><h5>PRANAV213234@GMAIL.COM</h5></div>
+    </div>
+    <div class="phone"><h4>TELEPHONE</h4>
+        <div class="phone-main"><h5></h5></div>
+    </div>
+    </div>
+</section>
+
+</body>
+<script>
+const menu = document.querySelector(".menu-btn")
+const navLinks = document.querySelector(".nav-links")
+const name = document.querySelector(".bg-blur")
+
+
+
+menu.addEventListener('click', () => {
+    navLinks.classList.toggle('mobile-menu')
+    name.classList.toggle('mobile-menu1')
+    
+});
+</script>
+
+</html>
